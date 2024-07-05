@@ -1,3 +1,12 @@
-print('This is test for Eduson')
+# import math
 
-print('This is feature-1')
+# Масса чистых стекол
+# a = float()
+
+# ввод исходных данных
+a = float(input("Введите массу в граммах чистой пластины Xc1: "))
+while a < 0:
+    print("Отрицательные значения запрещены!")
+    a = float(input("Введите массу в граммах чистой пластины Xc1: "))
+    if a >= 0:
+        break
